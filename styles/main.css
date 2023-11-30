@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #343a40; 
+    padding: 1rem;
+    text-align: center;
+    color: #fff; 
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem; 
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: #fff; 
+    margin: 0 1rem; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .story-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .story-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .add-story form {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  .notification {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.success {
+    background-color: #28a745; 
+}
+
+.notification.show {
+    opacity: 1;
+}
+
+
+.about {
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #333;
+}
